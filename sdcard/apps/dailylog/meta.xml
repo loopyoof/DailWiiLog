@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Daily Log</name>
+  <coder>Ugjh</coder>
+  <version>0.1</version>
+  <release_date>20261023000000</release_date>
+  <short_description>Wii play history viewer</short_description>
+  <long_description>Shows your Wii game play stats: total hours, days played, a calendar of play days and per-game details, read from the Wii Message Board play log.
+
+Put audio.ogg next to boot.elf for background music; replace it any time.</long_description>
+</app>
