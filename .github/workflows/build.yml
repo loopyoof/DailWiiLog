@@ -11,7 +11,7 @@ jobs:
       - name: Install libraries
         run: |
           dkp-pacman -Syu --noconfirm
-          dkp-pacman -S --noconfirm wii-dev ppc-freetype ppc-libpng ppc-libjpeg-turbo ppc-zlib ppc-libvorbisidec ppc-brotli ppc-bzip2 ppc-ogg
+          dkp-pacman -S --noconfirm wii-dev ppc-freetype ppc-libpng ppc-libjpeg-turbo ppc-zlib ppc-libvorbisidec ppc-brotli ppc-bzip2 ppc-libogg
       - name: Build GRRLIB
         run: |
           git clone --depth 1 https://github.com/GRRLIB/GRRLIB.git /tmp/GRRLIB
